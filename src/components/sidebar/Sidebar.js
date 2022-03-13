@@ -1,4 +1,4 @@
-import './Sidebar.scss';
+import './sidebar.scss';
 import DashboardIcon from '@mui/icons-material/Dashboard';
 import PeopleAltIcon from '@mui/icons-material/PeopleAlt';
 import StoreIcon from '@mui/icons-material/Store';

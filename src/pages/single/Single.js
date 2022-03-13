@@ -1,4 +1,4 @@
-import './Single.scss';
+import './single.scss';
 
 function Single() {
   return <div>Single</div>;
