@@ -2,6 +2,7 @@ import './single.scss';
 import Sidebar from '../../components/sidebar/Sidebar';
 import Navbar from '../../components/navbar/Navbar';
 import Chart from '../../components/chart/Chart';
+import TableList from '../../components/table/TableList';
 
 function Single() {
   return (
@@ -46,7 +47,10 @@ function Single() {
             <Chart aspect={3 / 1} title='User Spending (Last 6 Months)' />
           </div>
         </div>
-        <div className='bottom'></div>
+        <div className='bottom'>
+          <h2 className='title'>Recent Transactions</h2>
+          <TableList />
+        </div>
       </div>
     </div>
   );

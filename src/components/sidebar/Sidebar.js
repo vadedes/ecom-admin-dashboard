@@ -77,7 +77,7 @@ function Sidebar() {
           <p className='title'>COLOR OPTIONS</p>
         </ul>
       </div>
-      <div className='bottom'>
+      <div className='bottom-sidebar'>
         <div className='colorOption'></div>
         <div className='colorOption'></div>
       </div>
